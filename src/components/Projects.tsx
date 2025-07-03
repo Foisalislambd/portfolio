@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { ExternalLink, Github, Filter } from 'lucide-react'
+import { ExternalLink, Github } from 'lucide-react'
 
 const Projects = () => {
   const { ref, inView } = useInView({
