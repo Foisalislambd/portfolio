@@ -109,7 +109,7 @@ const About = () => {
             <motion.div variants={itemVariants} className="space-y-8">
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-6">
-                {stats.map((stat, index) => {
+                {stats.map((stat) => {
                   const IconComponent = stat.icon
                   return (
                     <motion.div
